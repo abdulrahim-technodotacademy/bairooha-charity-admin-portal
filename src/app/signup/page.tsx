@@ -21,8 +21,7 @@ export default function SignupPage() {
 
   const handleSignup = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, you'd have user creation logic here.
-    // For this prototype, we'll just redirect to the dashboard.
+  
     router.push("/dashboard");
   };
 
